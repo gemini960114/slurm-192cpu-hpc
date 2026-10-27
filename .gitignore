@@ -1,0 +1,7 @@
+# 忽略 logs 目錄下的所有檔案，僅保留 README.md
+logs/*
+!logs/README.md
+
+# 忽略 Slurm 執行產生的 log 檔案
+*.out
+*.err
